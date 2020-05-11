@@ -1,10 +1,13 @@
-- name: VMWareplaybook
-  uri:
-    url: http://127.0.0.1:8697/api/vmnet
-    user: your_username
-    password: your_pass
-    method: POST
-    body: "{{ lookup('file','issue.json') }}"
-    force_basic_auth: yes
-    status_code: 201
-    body_format: json
+---
+- name: VMWareRestAPI playbook
+  hosts: all
+  tasks:
+  - name: VMWareRestAPI playbook
+    uri:
+      url: http://127.0.0.1:8697/api/vmnet
+      user: apereira
+      password: teste
+      method: POST
+      force_basic_auth: yes
+      status_code: 201
+      body_format: json
