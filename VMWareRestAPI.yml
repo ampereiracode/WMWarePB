@@ -1,4 +1,3 @@
----
 - name: VMWareRestAPI playbook
   tasks:
     - name: VMWareRestAPI
