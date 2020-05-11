@@ -6,7 +6,7 @@
     uri:
       url: http://127.0.0.1:8697/api/vmnet
       user: apereira
-      password: teste
+      password: 123456!aA
       method: POST
       force_basic_auth: yes
       status_code: 201
