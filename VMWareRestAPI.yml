@@ -1,5 +1,4 @@
-- name: VMWareRestAPI playbook
-  tasks:
+- name: VMWareplaybook
   uri:
     url: http://127.0.0.1:8697/api/vmnet
     user: your_username
