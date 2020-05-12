@@ -5,8 +5,8 @@
   - name: VMWareRestAPI playbook
     uri:
       url: https://192.168.1.75:8697/api/vmnet
-      user: apereira
-      password: 123456!aA
+      #user: apereira
+      #password: 123456!aA
       method: POST
       force_basic_auth: yes
       status_code: 201
