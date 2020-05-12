@@ -8,7 +8,7 @@
       validate_certs: no
       #user: apereira
       #password: 123456!aA
-      method: POST
+      method: GET
       force_basic_auth: yes
       #status_code: 201
       #body_format: json
