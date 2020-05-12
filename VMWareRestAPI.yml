@@ -4,7 +4,7 @@
   tasks:
   - name: VMWareRestAPI playbook
     uri:
-      url: http://127.0.0.1:8697/api/vmnet
+      url: https://192.168.1.75:8697/api/vmnet
       user: apereira
       password: 123456!aA
       method: POST
