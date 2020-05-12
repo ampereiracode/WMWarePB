@@ -11,4 +11,4 @@
       method: POST
       force_basic_auth: yes
       #status_code: 201
-      body_format: json
+      #body_format: json
