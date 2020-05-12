@@ -10,5 +10,5 @@
       #password: 123456!aA
       method: GET
       force_basic_auth: yes
-      #status_code: 201
-      #body_format: json
+      status_code: 201
+      body_format: json
