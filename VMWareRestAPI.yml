@@ -4,8 +4,8 @@
   tasks:
   - name: VMWareRestAPI playbook
     uri:
-      validate_cert:no
       url: https://192.168.1.75:8697/api/vmnet
+      validate_cert:no
       #user: apereira
       #password: 123456!aA
       method: POST
